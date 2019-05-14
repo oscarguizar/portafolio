@@ -5,3 +5,14 @@
     margin-bottom: 5rem;
   }
 }
+
+.bw-image {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.bw-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
